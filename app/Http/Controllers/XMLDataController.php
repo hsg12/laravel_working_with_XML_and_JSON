@@ -55,7 +55,6 @@ class XMLDataController extends Controller
             $dom->save(base_path($this->path));
             // End block
 
-            //$products = new \SimpleXMLElement(base_path($this->path), NULL, true);
             $result = $products;
         }
 
